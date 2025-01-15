@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_mensagemInicial",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_novaMensagem",
+						"type": "string"
+					}
+				],
+				"name": "atualizarMensagem",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "mensagem",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"MeuContrato.sol": "MeuPrimeiroContrato"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"MeuContrato.sol": {
+			"keccak256": "0xebb2f0be5c1af32ddc9c54cecdfb261f624df72608300e785f2b463fb7e407c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ce818b8d25d36bcaf12af2dce69197b8c03f7b8bff7ce1a6ca29877705039c49",
+				"dweb:/ipfs/QmcGLVsgG9LNGRfYG9R1xynDAma2YnrMA8LeKbDmRcj34R"
+			]
+		}
+	},
+	"version": 1
+}
