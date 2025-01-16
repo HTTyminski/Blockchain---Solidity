@@ -31,6 +31,19 @@
 			},
 			{
 				"inputs": [],
+				"name": "favoriteNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
 				"name": "mensagem",
 				"outputs": [
 					{
@@ -40,6 +53,32 @@
 					}
 				],
 				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "retrieve",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_favoriteNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "store",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -71,11 +110,11 @@
 	},
 	"sources": {
 		"MeuContrato.sol": {
-			"keccak256": "0xebb2f0be5c1af32ddc9c54cecdfb261f624df72608300e785f2b463fb7e407c5",
+			"keccak256": "0x915c65309e54bd1ee43557c3779d3acfa6fe2097e08bea0869d9e63a6aa79063",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://ce818b8d25d36bcaf12af2dce69197b8c03f7b8bff7ce1a6ca29877705039c49",
-				"dweb:/ipfs/QmcGLVsgG9LNGRfYG9R1xynDAma2YnrMA8LeKbDmRcj34R"
+				"bzz-raw://a7c59627868ce212d9b1d2774dcc17dde1e0ddcaeeb11dad448c9fb8f3db0f76",
+				"dweb:/ipfs/QmTKfy1AXxwi1ChBPGk7XKfrzwHgPtUfHW5pB3xVEs9ey8"
 			]
 		}
 	},
